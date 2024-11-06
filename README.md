@@ -1,4 +1,4 @@
-# Wallhaven Downloader
+# Wallhaven Scraper
 
 This Go program downloads wallpapers from Wallhaven using their API. It allows you to configure search queries, resolution, categories, and limits through a `config.json` file.
 
@@ -23,3 +23,17 @@ Create a `config.json` file in the project directory with the following structur
   "limit": 10,
   "download_limit": 5
 }
+```
+
+## Running
+- Clone Repository
+```
+go run main.go config.go
+```
+
+## Building
+- Clone Repository
+```
+go build
+```
+- Then run the resulting binary: wallpaper_scraper
