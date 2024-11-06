@@ -1,0 +1,10 @@
+{
+    "api_key": "",
+    "search_query": "nature",
+    "resolution": "1920x1080",
+    "categories": "111",
+    "purity": "111",
+    "sorting": "random",
+    "order": "desc",
+    "download_limit": 5
+  }
